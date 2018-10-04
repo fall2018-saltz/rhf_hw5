@@ -131,8 +131,11 @@
         },
         {
             "name": "popBoxplot.png"
+        },
+        {
+            "name": "murderBoxplot.png"
         }
     ],
-    "updated_at": "2018-10-04 16:18:39",
+    "updated_at": "2018-10-04 16:18:45",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
