@@ -44,6 +44,16 @@
             ],
             "source": "analysis.R",
             "target": "popHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderHistogram",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murderHistogram.png"
         }
     ],
     "nodes": [
@@ -71,6 +81,6 @@
             "name": "murderHistogram.png"
         }
     ],
-    "updated_at": "2018-10-04 16:12:08",
+    "updated_at": "2018-10-04 16:12:17",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
