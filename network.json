@@ -88,22 +88,22 @@
         {
             "ports": [
                 {
-                    "output": "popBoxPlot",
-                    "type": "png"
-                }
-            ],
-            "source": "analysis.R",
-            "target": "popBoxplot.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "murderBoxplot",
                     "type": "png"
                 }
             ],
             "source": "analysis.R",
             "target": "murderBoxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popBoxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "popBoxplot.png"
         }
     ],
     "nodes": [
@@ -146,6 +146,6 @@
             "name": "murderBoxplot.png"
         }
     ],
-    "updated_at": "2018-10-04 16:20:46",
+    "updated_at": "2018-10-04 16:20:50",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
