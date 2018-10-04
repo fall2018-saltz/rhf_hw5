@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "clean_data",
                     "type": "csv"
                 }
@@ -27,15 +17,12 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
             "name": "clean.R"
         },
         {
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:12:33",
+    "updated_at": "2018-10-04 15:18:05",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
