@@ -53,8 +53,11 @@
         },
         {
             "name": "popStatsScatter.png"
+        },
+        {
+            "name": "popHistogram.png"
         }
     ],
-    "updated_at": "2018-10-04 16:07:21",
+    "updated_at": "2018-10-04 16:11:47",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
