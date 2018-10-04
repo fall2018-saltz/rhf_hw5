@@ -27,3 +27,7 @@ colnames(dfStates)
 arrests <- USArrests
 #convert row names of states to new column for merging
 arrests <- arrests %>% rownames_to_column("stateName")
+
+#merge the two data frames
+common_col_names <- intersect(names(arrests), names(dfStates))
+allStateData <- merge.data.frame(arrests, dfStates, by=common_col_names, all.x=TRUE)
