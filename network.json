@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "analysis.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popStatsScatter",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "popStatsScatter.png"
         }
     ],
     "nodes": [
@@ -45,6 +55,6 @@
             "name": "popStatsScatter.png"
         }
     ],
-    "updated_at": "2018-10-04 16:06:37",
+    "updated_at": "2018-10-04 16:07:21",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
