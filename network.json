@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "pop_data",
                     "type": "csv"
                 }
@@ -27,15 +17,14 @@
     ],
     "nodes": [
         {
-            "name": "clean.R"
-        },
-        {
-            "name": "data.csv"
+            "assigned_to": "rhfrench",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:26:52",
+    "updated_at": "2018-10-04 15:37:44",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
