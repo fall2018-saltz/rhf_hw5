@@ -18,6 +18,7 @@
             "ports": [
                 {
                     "input": "allStateData",
+                    "output": "allStateData",
                     "type": "r_obj"
                 }
             ],
@@ -35,10 +36,12 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "rhfrench",
             "desc": "",
-            "name": "analysis.R"
+            "name": "analysis.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 15:50:46",
+    "updated_at": "2018-10-04 15:58:20",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
