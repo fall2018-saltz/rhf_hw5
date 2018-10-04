@@ -1,2 +1,3 @@
 
-clean_data <- raw_data
+#read in census dataset
+dfStates <- read.csv(pop_data, stringsAsFactors = FALSE)
