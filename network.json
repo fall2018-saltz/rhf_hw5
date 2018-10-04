@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "input": "dfStates",
+                    "input": "pop_data",
                     "type": "csv"
                 }
             ],
@@ -36,6 +36,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:25:59",
+    "updated_at": "2018-10-04 15:26:52",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
