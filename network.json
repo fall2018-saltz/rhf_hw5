@@ -54,6 +54,16 @@
             ],
             "source": "analysis.R",
             "target": "murderHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerStateBar",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murdersPerStateBar.png"
         }
     ],
     "nodes": [
@@ -90,6 +100,6 @@
             "name": "murdersPerStateBar3.png"
         }
     ],
-    "updated_at": "2018-10-04 16:16:25",
+    "updated_at": "2018-10-04 16:17:13",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
