@@ -1,4 +1,9 @@
 
+#import necessary libraries
+library(tibble)
+library(dplyr)
+library(ggplot2)
+
 #read in census dataset
 #dfStates <- read.csv(pop_data, stringsAsFactors = FALSE)
 print(pop_data)
