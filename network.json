@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "allStateData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "analysis.R"
         }
     ],
     "nodes": [
@@ -29,6 +39,6 @@
             "name": "analysis.R"
         }
     ],
-    "updated_at": "2018-10-04 15:40:16",
+    "updated_at": "2018-10-04 15:50:46",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
