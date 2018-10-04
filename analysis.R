@@ -1,4 +1,10 @@
 
+#import necessary libraries
+library(tibble)
+library(dplyr)
+library(ggplot2)
+
+
 #STEP 2
 #create histogram for the population
 popHistogram <- ggplot(allStateData, aes(x=population))
