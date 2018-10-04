@@ -40,8 +40,11 @@
             "desc": "",
             "name": "analysis.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "popStatsScatter.png"
         }
     ],
-    "updated_at": "2018-10-04 15:58:20",
+    "updated_at": "2018-10-04 16:06:37",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
