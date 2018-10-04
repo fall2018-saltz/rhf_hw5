@@ -98,7 +98,7 @@
         {
             "ports": [
                 {
-                    "output": "murderBoxPlot",
+                    "output": "murderBoxplot",
                     "type": "png"
                 }
             ],
@@ -146,6 +146,6 @@
             "name": "murderBoxplot.png"
         }
     ],
-    "updated_at": "2018-10-04 16:18:52",
+    "updated_at": "2018-10-04 16:20:46",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
