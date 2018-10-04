@@ -44,16 +44,16 @@ murdersPerStateBar <- murdersPerStateBar
 murdersPerStateBar
 
 #adjust the barplot to make state names readable
-murdersPerStateBar <- ggplot(allStateData,aes(x=stateName, y=murdersPerState, group=1))
-murdersPerStateBar <- murdersPerStateBar + geom_col()
-murdersPerStateBar <- murdersPerStateBar + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-murdersPerStateBar
+murdersPerStateBar2 <- ggplot(allStateData,aes(x=stateName, y=murdersPerState, group=1))
+murdersPerStateBar2 <- murdersPerStateBar2 + geom_col()
+murdersPerStateBar2 <- murdersPerStateBar2 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+murdersPerStateBar2
 
 #adjust the barplot to sort the x axis by the murder rate
-murdersPerStateBar <- ggplot(allStateData,aes(x=reorder(stateName,murdersPerState), y=murdersPerState, group=1, fill=percentOver18))
-murdersPerStateBar <- murdersPerStateBar + geom_col()
-murdersPerStateBar <- murdersPerStateBar + theme(axis.text.x = element_text(angle = 90, hjust = 1))
-murdersPerStateBar
+murdersPerStateBar3 <- ggplot(allStateData,aes(x=reorder(stateName,murdersPerState), y=murdersPerState, group=1, fill=percentOver18))
+murdersPerStateBar3 <- murdersPerStateBar3 + geom_col()
+murdersPerStateBar3 <- murdersPerStateBar3 + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+murdersPerStateBar3
 
 
 
