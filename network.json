@@ -81,7 +81,7 @@
             "name": "murderHistogram.png"
         },
         {
-            "name": "murdersPerState.png"
+            "name": "murdersPerStateBar.png"
         },
         {
             "name": "murdersPerStateBar2.png"
@@ -90,6 +90,6 @@
             "name": "murdersPerStateBar3.png"
         }
     ],
-    "updated_at": "2018-10-04 16:16:19",
+    "updated_at": "2018-10-04 16:16:25",
     "url": "https://github.com/fall2018-saltz/rhf_hw5"
 }
