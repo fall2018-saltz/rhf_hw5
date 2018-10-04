@@ -6,7 +6,7 @@ library(ggplot2)
 
 #read in census dataset
 #dfStates <- read.csv(pop_data, stringsAsFactors = FALSE)
-print(pop_data)
+dfStates <- pop_data
 
 #Remove unnecesary rows
 dfStates <- dfStates[-c(1, 53),]
