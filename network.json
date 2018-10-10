@@ -1,0 +1,151 @@
+{
+    "collaborators": [
+        "rhfrench"
+    ],
+    "created_at": "2018-10-04 15:12:33",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "pop_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "allStateData",
+                    "output": "allStateData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "analysis.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popStatsScatter",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "popStatsScatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popHistogram",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "popHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderHistogram",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murderHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerStateBar",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murdersPerStateBar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerStateBar2",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murdersPerStateBar2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murdersPerStateBar3",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murdersPerStateBar3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderBoxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "murderBoxplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popBoxplot",
+                    "type": "png"
+                }
+            ],
+            "source": "analysis.R",
+            "target": "popBoxplot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "rhfrench",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "rhfrench",
+            "desc": "",
+            "name": "analysis.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "popStatsScatter.png"
+        },
+        {
+            "name": "popHistogram.png"
+        },
+        {
+            "name": "murderHistogram.png"
+        },
+        {
+            "name": "murdersPerStateBar.png"
+        },
+        {
+            "name": "murdersPerStateBar2.png"
+        },
+        {
+            "name": "murdersPerStateBar3.png"
+        },
+        {
+            "name": "popBoxplot.png"
+        },
+        {
+            "name": "murderBoxplot.png"
+        }
+    ],
+    "updated_at": "2018-10-04 16:20:50",
+    "url": "https://github.com/fall2018-saltz/rhf_hw5"
+}
